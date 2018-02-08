@@ -1,6 +1,6 @@
-html {
-     font-family: 'Nanum Pen Script', cursive;
-     background-color:#f08080;
+html{
+     font-family: 'Courgette', cursive;
+     background-color: Tan;
      border-color: #808080;
 }
 
@@ -12,8 +12,9 @@ h1 {
 
 
 p, li {
+  font: Courgette;
   font-size: 140%;
-  color: purple;
+  color: black;
   width: 600px;
 }
 
@@ -27,8 +28,7 @@ img{
 body{
   width: 600px;
   margin: 20px auto;
-  background-color:#fa8072
-  ;
+  background-color: NavajoWhite;
   padding: 0 20px 20px 20px;
   border : 5px solid black;
   border-radius: 13%;

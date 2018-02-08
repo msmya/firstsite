@@ -18,14 +18,14 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Fufu Wa Rocker, ' + myName;
+  myHeading.textContent = 'IM A STRONG WOMAN, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Fufu Wa Rocker, ' + storedName;
+  myHeading.textContent = 'IM A STRONG WOMAN, ' + storedName;
 }
 myButton.onclick = function() {
   setUserName();
